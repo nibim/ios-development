@@ -1,0 +1,45 @@
+# Xcode
+#
+.DS_Store
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+!*.playground/contents.xcplayground
+!*.playground/timeline.xctimeline
+
+# Build artifacts
+build/
+*.xcarchive/
+*.ipa
+*.app
+*.dSYM.zip
+*.dmg
+
+# Generated files
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods (if you use it)
+Pods/
+.bundle/
+
+# Carthage (if you use it)
+Carthage/Build/
+
+# Other temporary or configuration files
+*.swp
+*~.nib
+.vagrant/
+.vscode/
+
+# Project-specific secrets
+Secrets.swift  # <-- ADD THIS LINE
